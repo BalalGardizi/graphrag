@@ -1,0 +1,5 @@
+[
+  {"date": "2024-01-01", "price_per_kwh": "0.28", "currency": "EUR"},
+  {"date": "2024-02-01", "price_per_kwh": "0.30", "currency": "EUR"},
+  {"date": "2024-03-01", "price_per_kwh": "0.27", "currency": "EUR"}
+]

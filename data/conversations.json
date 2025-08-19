@@ -1,0 +1,46 @@
+[
+  {
+    "message_id": "m-0001",
+    "thread_id": "CASE-2024-07-30-001",
+    "timestamp": "2024-07-30T00:00:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST001",
+    "message": "Welcome! How can I assist you today?"
+  },
+  {
+    "message_id": "m-0002",
+    "thread_id": "CASE-2024-07-30-001",
+    "timestamp": "2024-07-30T00:01:00Z",
+    "speaker": "customer",
+    "channel": "chat",
+    "customer_id": "CUST001",
+    "message": "I have a question about my bill."
+  },
+  {
+    "message_id": "m-0003",
+    "thread_id": "CASE-2024-07-30-001",
+    "timestamp": "2024-07-30T00:02:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST001",
+    "message": "Sure, what's your contract number?"
+  },
+  {
+    "message_id": "m-0004",
+    "thread_id": "CASE-2024-07-30-001",
+    "timestamp": "2024-07-30T00:03:05Z",
+    "speaker": "customer",
+    "channel": "chat",
+    "customer_id": "CUST001",
+    "message": "Contract ELEC-784512. The June invoice looks too high.",
+    "referenced_docs": ["INV-2024-06"],
+    "attachments": [
+      {
+        "doc_id": "INV-2024-06",
+        "filename": "invoice_2024-06.pdf",
+        "version": 1
+      }
+    ]
+  }
+]
