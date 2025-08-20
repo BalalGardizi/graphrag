@@ -1,46 +1,166 @@
 [
   {
-    "message_id": "m-0001",
-    "thread_id": "CASE-2024-07-30-001",
-    "timestamp": "2024-07-30T00:00:00Z",
+    "message_id": "m-1001",
+    "thread_id": "CASE-2024-11-25-001",
+    "timestamp": "2024-11-25T09:00:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST002",
+    "message": "Hello! How can I help you today?"
+  },
+  {
+    "message_id": "m-1002",
+    "thread_id": "CASE-2024-11-25-001",
+    "timestamp": "2024-11-25T09:01:00Z",
+    "speaker": "customer",
+    "channel": "chat",
+    "customer_id": "CUST002",
+    "message": "My broadband discount hasn’t shown up on my November bill."
+  },
+  {
+    "message_id": "m-1003",
+    "thread_id": "CASE-2024-11-25-001",
+    "timestamp": "2024-11-25T09:02:30Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST002",
+    "message": "Let me check… I see you have Home Bundle Max (CTR-46BB83F7) starting 2024-11-18 with Broadband Saver at €14.51. That includes 5% off your electricity."
+  },
+  {
+    "message_id": "m-1004",
+    "thread_id": "CASE-2024-11-25-001",
+    "timestamp": "2024-11-25T09:03:40Z",
+    "speaker": "customer",
+    "channel": "chat",
+    "customer_id": "CUST002",
+    "message": "So why isn’t that discount on my bill?"
+  },
+  {
+    "message_id": "m-1005",
+    "thread_id": "CASE-2024-11-25-001",
+    "timestamp": "2024-11-25T09:04:15Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST002",
+    "message": "It looks like the discount wasn’t activated in billing because the contract was marked as expired too soon. I’ll submit a correction so you get a refund for November and future bills show the discount."
+  },
+  {
+    "message_id": "m-1006",
+    "thread_id": "CASE-2024-11-25-001",
+    "timestamp": "2024-11-25T09:05:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST002",
+    "message": "We’ve logged the fix. You should see the updated credit on your next statement."
+  },
+
+  {
+    "message_id": "m-2001",
+    "thread_id": "CASE-2024-08-15-002",
+    "timestamp": "2024-08-15T14:00:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST003",
+    "message": "Hi there! How can I assist today?"
+  },
+  {
+    "message_id": "m-2002",
+    "thread_id": "CASE-2024-08-15-002",
+    "timestamp": "2024-08-15T14:01:00Z",
+    "speaker": "customer",
+    "channel": "chat",
+    "customer_id": "CUST003",
+    "message": "I think I’m signed up for two electricity plans at once."
+  },
+  {
+    "message_id": "m-2003",
+    "thread_id": "CASE-2024-08-15-002",
+    "timestamp": "2024-08-15T14:02:15Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST003",
+    "message": "Checking now… You have Premium Energy Saver starting 2024-10-20 and Basic Energy Saver starting 2024-12-11."
+  },
+  {
+    "message_id": "m-2004",
+    "thread_id": "CASE-2024-08-15-002",
+    "timestamp": "2024-08-15T14:03:10Z",
+    "speaker": "customer",
+    "channel": "chat",
+    "customer_id": "CUST003",
+    "message": "So will I be billed for both?"
+  },
+  {
+    "message_id": "m-2005",
+    "thread_id": "CASE-2024-08-15-002",
+    "timestamp": "2024-08-15T14:04:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST003",
+    "message": "If nothing changes, yes — the December start means they would overlap. I recommend we cancel one before it begins."
+  },
+  {
+    "message_id": "m-2006",
+    "thread_id": "CASE-2024-08-15-002",
+    "timestamp": "2024-08-15T14:05:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST003",
+    "message": "I’ll schedule a follow‑up to confirm which plan you’d like to keep so you don’t get double‑billed."
+  },
+
+  {
+    "message_id": "m-3001",
+    "thread_id": "CASE-2025-01-20-003",
+    "timestamp": "2025-01-20T16:00:00Z",
     "speaker": "bot",
     "channel": "chat",
     "customer_id": "CUST001",
-    "message": "Welcome! How can I assist you today?"
+    "message": "Welcome back! What can I do for you?"
   },
   {
-    "message_id": "m-0002",
-    "thread_id": "CASE-2024-07-30-001",
-    "timestamp": "2024-07-30T00:01:00Z",
+    "message_id": "m-3002",
+    "thread_id": "CASE-2025-01-20-003",
+    "timestamp": "2025-01-20T16:01:00Z",
     "speaker": "customer",
     "channel": "chat",
     "customer_id": "CUST001",
-    "message": "I have a question about my bill."
+    "message": "My old Home Bundle Max is still being charged, but it ended last year."
   },
   {
-    "message_id": "m-0003",
-    "thread_id": "CASE-2024-07-30-001",
-    "timestamp": "2024-07-30T00:02:00Z",
+    "message_id": "m-3003",
+    "thread_id": "CASE-2025-01-20-003",
+    "timestamp": "2025-01-20T16:02:10Z",
     "speaker": "bot",
     "channel": "chat",
     "customer_id": "CUST001",
-    "message": "Sure, what's your contract number?"
+    "message": "I see CTR-86E5A8D2 ended on 2025-05-16. An additional Home Bundle Max add‑on may still be active."
   },
   {
-    "message_id": "m-0004",
-    "thread_id": "CASE-2024-07-30-001",
-    "timestamp": "2024-07-30T00:03:05Z",
+    "message_id": "m-3004",
+    "thread_id": "CASE-2025-01-20-003",
+    "timestamp": "2025-01-20T16:03:05Z",
     "speaker": "customer",
     "channel": "chat",
     "customer_id": "CUST001",
-    "message": "Contract ELEC-784512. The June invoice looks too high.",
-    "referenced_docs": ["INV-2024-06"],
-    "attachments": [
-      {
-        "doc_id": "INV-2024-06",
-        "filename": "invoice_2024-06.pdf",
-        "version": 1
-      }
-    ]
+    "message": "Can you cancel it and refund me?"
+  },
+  {
+    "message_id": "m-3005",
+    "thread_id": "CASE-2025-01-20-003",
+    "timestamp": "2025-01-20T16:04:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST001",
+    "message": "Yes, I’ll request cancellation today and process a refund for the months after May."
+  },
+  {
+    "message_id": "m-3006",
+    "thread_id": "CASE-2025-01-20-003",
+    "timestamp": "2025-01-20T16:05:00Z",
+    "speaker": "bot",
+    "channel": "chat",
+    "customer_id": "CUST001",
+    "message": "That’s all set — billing will confirm the final adjustment on your next cycle."
   }
 ]

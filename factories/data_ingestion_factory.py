@@ -50,25 +50,33 @@ class ContractIngestor(BaseDataIngestor):
             )
             for c in self.contracts
         ]
-
 @DataFactory.register("price")
 class PriceIngestor(BaseDataIngestor):
     def __init__(self):
         self.prices = []
+
     def ingest(self, source):
         self.prices = json.loads(Path(source).read_text())
+
     def to_json(self):
         return self.prices
+
     def to_episodes(self):
-        return [
-            RawEpisode(
-                name="EnergyPriceHistory",
-                content=json.dumps(self.prices),
-                source_description="Historical energy prices per kWh",
-                source=EpisodeType.json,
-                reference_time=datetime.now(timezone.utc)
+        episodes = []
+        for p in self.prices:
+            episodes.append(
+                RawEpisode(
+                    name=f"EnergyPrice-{p['date']}",
+                    content=json.dumps(p),
+                    source_description="Energy price per kWh for given date",
+                    source=EpisodeType.json,
+                    reference_time=datetime.fromisoformat(f"{p['date']}T00:00:00+00:00"),
+                    # Include IDs/group_id that match the entity node(s) this price should connect to
+                    group_id=f"Price_{p.get('location_id','default')}"
+                )
             )
-        ]
+        return episodes
+
 @DataFactory.register("conversation")
 class ConversationIngestor(BaseDataIngestor):
     def __init__(self):

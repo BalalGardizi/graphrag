@@ -1,5 +1,22 @@
 [
-  {"date": "2024-01-01", "price_per_kwh": "0.28", "currency": "EUR"},
-  {"date": "2024-02-01", "price_per_kwh": "0.30", "currency": "EUR"},
-  {"date": "2024-03-01", "price_per_kwh": "0.27", "currency": "EUR"}
+  {"date": "2024-01-01", "price_per_kwh_avg": "0.28", "currency": "EUR"},
+  {"date": "2024-02-01", "price_per_kwh_avg": "0.285", "currency": "EUR"},
+  {"date": "2024-03-01", "price_per_kwh_avg": "0.29", "currency": "EUR"},
+  {"date": "2024-04-01", "price_per_kwh_avg": "0.295", "currency": "EUR"},
+  {"date": "2024-05-01", "price_per_kwh_avg": "0.30", "currency": "EUR"},
+  {"date": "2024-06-01", "price_per_kwh_avg": "0.305", "currency": "EUR"},
+  {"date": "2024-07-01", "price_per_kwh_avg": "0.31", "currency": "EUR"},
+  {"date": "2024-08-01", "price_per_kwh_avg": "0.315", "currency": "EUR"},
+  {"date": "2024-09-01", "price_per_kwh_avg": "0.32", "currency": "EUR"},
+  {"date": "2024-10-01", "price_per_kwh_avg": "0.325", "currency": "EUR"},
+  {"date": "2024-11-01", "price_per_kwh_avg": "0.33", "currency": "EUR"},
+  {"date": "2024-12-01", "price_per_kwh_avg": "0.335", "currency": "EUR"},
+  {"date": "2025-01-01", "price_per_kwh_avg": "0.34", "currency": "EUR"},
+  {"date": "2025-02-01", "price_per_kwh_avg": "0.345", "currency": "EUR"},
+  {"date": "2025-03-01", "price_per_kwh_avg": "0.35", "currency": "EUR"},
+  {"date": "2025-04-01", "price_per_kwh_avg": "0.355", "currency": "EUR"},
+  {"date": "2025-05-01", "price_per_kwh_avg": "0.36", "currency": "EUR"},
+  {"date": "2025-06-01", "price_per_kwh_avg": "0.365", "currency": "EUR"},
+  {"date": "2025-07-01", "price_per_kwh_avg": "0.37", "currency": "EUR"},
+  {"date": "2025-08-01", "price_per_kwh_avg": "0.375", "currency": "EUR"}
 ]
