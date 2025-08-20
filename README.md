@@ -1,6 +1,6 @@
 # graphrag
 
-### Nodejs DB and ingesting data 
+### Neo4Js DB and ingesting data 
 
 `ingest_data.py` with llm and an entity embedder builds, entities, edges
 
